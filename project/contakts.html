@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/stile.css">
+  </head>
+  <body>
+    <div class="containe">
+      <header class="contakts">
+          <a class="logo" href="index.php">
+            <img src="img/logo.gif" width="125" height="111" alt="Логотип">
+          </a> 
+        <div class="social">
+          <a class="face" href="https://www.facebook.com" target="_blank"></a>
+          <a class="tw" href="https://twitter.com/?lang=ru" target="_blank"></a>
+          <a class="yo" href="https://www.youtube.com" target="_blank"></a>
+          <a class="in" href="https://www.instagram.com" target="_blank"></a>
+          <a class="pi" href="https://ru.pinterest.com" target="_blank"></a>
+        </div>
+      </header>
+      <div class="main">
+        <div class="menu">
+          <ul class="mainmenu">
+            <li><a href="index.php">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li class="active"><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="content">
+          <ol class="breadcrumb">
+            <li><a href="index.html">Главная</a></li>
+            <li class="active">Контакты</li>
+          </ol>   
+          <h2>Напишите нам</h2>
+          <form class="contact_us" action="mailto:lenjah@mail.ru" method="post">
+            <div>
+                <label for="username">Введите Имя</label>
+                <input id="username" type="text" placeholder="Введите Имя">
+              </div>
+              <div>
+                <label for="mail">Введите e-mail</label>
+                <input id="mail" type="text" placeholder="name@yandex.ru">
+            </div>
+            <div>
+              <label for="subject">Введите Тему сообщения</label>
+              <input id="subject" type="text" placeholder="Тема сообщения">
+            </div>
+            <textarea></textarea>
+            <div class="sub_baton">
+              <input type="submit" value="отправить">
+              <input type="reset" value="очистить">
+            </div>
+          </form>
+          <div class="adress">
+            <h2>Наш Адрес</h2>
+            <p> <img src="img/loc.png" alt="Значек локация"> Дом 4,Проспект Мира,Реутов, Московская область, Россия, 143966</p>
+            <p> <img src="img/tel.png" alt="Значек телефона"> +7 (495) 456-98-13</p>
+            <h2>Наш e-mail</h2>
+            <p> <img src="img/e-mail.png" alt="Значек e-mail"> info@coltoy.ru</p>
+          </div>
+          <iframe class="yandex" src="https://yandex.ru/map-widget/v1/-/CBefeGRJxB" width="560" height="400">
+          </iframe>
+        </div> 
+      </div>
+      <footer>
+        <div class="adres">
+          <h2>Наш Адрес</h2>
+          <p>Дом 4,Проспект Мира,Реутов, Московская область, Россия, 143966</p>
+          <h2>Наш Телефон</h2>
+          <p>+7 (495) 456-98-13</p>
+          <h2>Наш e-mail</h2>
+          <p>info@coltoy.ru</p>
+        </div>
+        <p class="rights">Все права защищены &#169;<p>
+      </footer>
+    </div>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <script src="js/bootstrap.min.js"></script>    
+  </body>
+</html>
